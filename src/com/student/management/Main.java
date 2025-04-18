@@ -40,7 +40,7 @@ public class Main {
                     break;
                 case 5:
                     System.out.println("Exiting... Goodbye!");
-                    scanner.close(); // ✅ Closing scanner before exiting
+                    scanner.close(); 
                     return;
                 default:
                     System.out.println("Invalid choice! Try again.");
